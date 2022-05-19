@@ -1,6 +1,6 @@
 apt install vim gcc g++ python3 python2 make cmake tmux git ssh mc wget curl tar zip unzip vlc htop gnome-tweaks virtualbox stow rename nfs-kernel-server cockpit net-tools nmap terminator snapd
 apt install tig
-
+# vim
 toolbox
 chrome
 snap install code --classic
