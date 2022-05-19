@@ -1,0 +1,32 @@
+apt install vim gcc g++ python3 python2 make cmake tmux git ssh mc wget curl tar zip unzip vlc htop gnome-tweaks virtualbox stow rename nfs-kernel-server cockpit net-tools nmap
+apt install tig
+
+toolbox
+chrome
+snap install code --classic
+snap install discord
+snap install teams-insiders
+sudo snap install notion-snap
+
+curl -fsSL https://get.docker.com | sh
+usermod -aG docker jan
+
+
+echo "jan	ALL=(ALL:ALL) NOPASSWD:ALL" >> /etc/sudoers
+
+ssh-keygen
+
+
+/etc/default/grub:
+GRUB_TIMEOUT_STYLE=menu
+GRUB_TIMEOUT=5
+GRUB_CMDLINE_LINUX_DEFAULT=""
+# update-grub
+
+
+
+echo "options snd-hda-intel model=alc255-acer,dell-headset-multi" >> /etc/modprobe.d/alsa-base.conf
+jetbrins mono: https://www.jetbrains.com/lp/mono/
+
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+apt install git-lfs
